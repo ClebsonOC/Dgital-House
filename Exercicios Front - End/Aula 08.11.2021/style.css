@@ -1,0 +1,11 @@
+body{
+    background-color: cornsilk;
+}
+
+.principal{
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    position: absolute;
+}

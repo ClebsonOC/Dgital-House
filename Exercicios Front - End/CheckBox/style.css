@@ -1,0 +1,58 @@
+body{
+    font-family: sans-serif;
+        padding: 0;
+            margin: 0;
+                background-color: #ec6b97;
+                    display: flex;
+                        flex-direction: column;
+                            justify-content: center;
+                                    align-items: center;
+}
+
+.wrapper{
+    height: 100vh;
+        display: flex;
+        flex-direction: column;
+            justify-content: center;
+                box-sizing: border-box;
+                    position: relative;
+}
+
+.wrapper section{
+    margin-bottom: 40px;
+}
+
+/*CHECKBOX*/
+
+#checkbox{
+    display: none;
+}
+
+.checkbox-label{
+    display: flex;
+        align-items: center;
+            letter-spacing: 0.4px;
+                font-size: 18px;
+                    color: white;
+                        cursor: pointer;
+}
+
+.checkbox-label::before{
+    content: '';
+        display: block;
+            height: 3rem;
+                width: 3rem;
+                    box-sizing: border-box;
+                        border: 2px solid #fff ;
+                            border-radius: 4px;
+                                margin-right: 10px;
+                                    background-color: white;
+                                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle r='50' cx='50' cy='50' fill='tomato'/%3E%3Ccircle r='41' cx='47' cy='50' fill='orange'/%3E%3Ccircle r='33' cx='48' cy='53' fill='gold'/%3E%3Ccircle r='25' cx='49' cy='51' fill='yellowgreen'/%3E%3Ccircle r='17' cx='52' cy='50' fill='lightseagreen'/%3E%3Ccircle r='9' cx='55' cy='48' fill='teal'/%3E%3C/svg%3E");
+                                            background-repeat: no-repeat;
+                                                background-position: center center;
+                                                    transition: .3s ease-in-out;
+
+}
+#checkbox:checked + .checkbox-label::before{
+    background-color: rgb(red, green, blue);
+}

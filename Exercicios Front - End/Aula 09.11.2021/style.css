@@ -1,0 +1,43 @@
+.menu{
+    width: 100%;
+        background-color: rgb(44, 42, 165);
+            position: fixed;
+}
+.menu img{
+    height: 50px;
+        float: left;
+}
+
+.menu button{
+    background-color: rgb(10, 99, 201);
+        padding: 15px 25px;
+           margin: 25px ;
+                border-radius: 20px;
+                    border-bottom: cornflowerblue;
+                         float: right;
+}
+.banner{
+    width: 100%;
+        background-image: url(./img/ImagemBanner.jpg);
+            padding: 500px;
+                float: left;
+}
+
+.linha{
+    width: 100px;
+        float: left;
+}
+.coluna{
+    float: left;
+        width: 50%;
+}
+
+.coluna.esquerda{
+         
+             background-color: crimson;
+} 
+
+.coluna.direita{
+
+}
+

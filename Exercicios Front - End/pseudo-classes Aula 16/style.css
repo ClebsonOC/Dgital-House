@@ -1,0 +1,27 @@
+a:hover{
+    color: rgb(27, 220, 20);
+}
+
+.after::after{
+    content:' OS CAVALEIROS DO ZODIACO';
+    color: chartreuse;
+
+}
+
+h3 p::first-letter{
+    font-size: 200%;
+    color: darkblue;
+}
+
+input:focus{
+    background-color: darkorange;
+}
+input:checked{
+    margin-left: 25px;
+    border: 1px solid blue;
+}
+
+li:nth-child(5){
+    background: brown;
+}
+

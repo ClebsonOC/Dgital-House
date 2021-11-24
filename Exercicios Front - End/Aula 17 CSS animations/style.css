@@ -1,0 +1,48 @@
+button{
+    color: blue;
+    background-color:white;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    /* transiton: all 0,5s;   usar o (all) para que todas as propriedades se modifiquem*/
+}
+
+
+button:hover{
+    color: tomato;
+    background-color: violet;
+}
+
+.caixa{
+    text-align: center;
+    text-transform: uppercase;
+    height: 100px;
+    width: 400px;
+    border-radius: 200px;
+    background-color: tomato;
+    position: relative; left: 200px; top: 129px;
+    transform: scale(2)
+}
+
+@keyframes fantasma{
+    0%{opacity: 0%;}
+    25%{transform: translateY(-20px);opacity: 100%}
+    100%{opacity: 0%}
+}
+
+/* animation-name
+Para definir qual é o nome da animação que queremos utilizar.
+
+
+animation-duration
+Para estabelecer o tempo que deve durar a animação. O valor pode ser em
+segundos (s) ou milissegundos (ms).
+
+
+animation-iteration-count
+Para definir a quantidade de vezes que a animação repetirá. Pode ser um
+número ou a palavra infinite para que reproduza infinitamente. */
+
+
+.fantasma{
+    animation: fantasma 3s infinite;
+}

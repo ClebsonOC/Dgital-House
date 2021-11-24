@@ -1,0 +1,27 @@
+body{
+    background-image: url(img/Porsche-Logo.png);
+         background-repeat: no-repeat;
+            background-size: 100%;
+                background-attachment: fixed;
+            
+}
+
+.nome{
+    width: 20%;;
+   font-family: Arial, Helvetica, sans-serif;
+    background-position: left;
+        padding: 10px;
+            border: solid 3px rgb(194, 4, 130); 
+                border-style: groove;
+                background-color: cyan        
+        
+}
+
+.comentario{
+    width: 150px
+        font-family: Arial, Helvetica, sans-serif;
+            border: 10px;
+                margin-bottom: 10px;
+                    position: relative;
+                    
+}

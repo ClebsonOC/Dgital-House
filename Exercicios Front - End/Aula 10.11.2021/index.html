@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Site</title>
+</head>
+<body>
+    <form action="nome" method="post">
+        <div class="nome">
+            <label for="seuNome">Digite seu nome</label>
+                <input type="text" name='nome' id="nome">
+        </div>
+        <div class="comentario">
+            <label for="comentario">deixe aqui seu comentario sobre o carro</label>
+                <textarea name="comentario" id="comentario" ></textarea>
+        </div>
+
+        <div class="versoes">
+            <label for="versao">escolha versão</label>
+                <select name="versão" id="versão">
+                    <option value="text">carreraGT</option>
+                    <option value="text">Cayenne</option>
+                    <option value="text">macan</option>
+                    <option value="text">panamera</option>
+                    <option value="text">taycan</option>
+                </select>
+        </div>
+
+        <div class="botoes">
+            <label for="botoes">opcoes</label>
+                <button type="reset">Cancelar</button>
+                <button type="submit">Enviar</button>
+        </div>
+
+
+    </form>
+
+</body>
+</html>

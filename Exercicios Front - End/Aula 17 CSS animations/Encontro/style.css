@@ -1,0 +1,27 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: red;
+    position: relative; left: 100px; top: 100px;
+    animation: mymove 5s infinite;
+  }
+
+  @keyframes mymove{
+      0%{opacity:0%}
+      25%{transform: translateY(-20px); opacity: 100%;}
+      100%{opacity: 0%;}
+      from{
+          height: 300px;
+          width: 300px;
+      }
+  }
+ 
+  .icon{
+      background-image: url(img/3285300-launch-rocket-space-spacecraft-spaceship-starship-startup_106797.ico);
+      background-repeat: no-repeat;
+      height: 500px;
+      position:relative;
+      bottom: 0;
+      right: 0px;
+  }

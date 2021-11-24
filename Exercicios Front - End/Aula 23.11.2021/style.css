@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 400px;
+    background-color: silver;
+}
+
+.botao{
+    border:3px, ;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 100px;
+    background-color: slategrey;
+    cursor: pointer;
+    transition: background-color 1s, border-color 2s;
+    transition-property: background-color, border-color, transform;
+    transition-duration: 1s, 2s, 0.5s;
+    transition-timing-function: ease-in-out;
+    animation: botao-chique 1s infinite;
+}
+
+.botao:hover{
+    background-color: rgb(53, 12, 235);
+    border-color: rgb(255,0,221);
+    transform:translate(20px, 50px);
+
+}
+
+@keyframes botao-chique {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-50px);
+
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
