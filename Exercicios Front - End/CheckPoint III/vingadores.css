@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+}
+
+#title {
+    margin-top: 80px;
+}
+
+#trailer {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    height: 150px;
+}
